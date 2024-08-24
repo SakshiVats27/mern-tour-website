@@ -1,47 +1,12 @@
- # Node modules (both frontend and backend)
+node_modules
+.env
+
+# Node modules
 node_modules/
 frontend/node_modules/
 backend/node_modules/
 
-# Build output (frontend build directory)
+# Build output
 frontend/build/
 
-# Environment files
-.env
-
-# Logs
-*.log
-
-# Operating system files
-.DS_Store
-Thumbs.db
-
-# IDE or editor files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# Dependency directories (if you use other package managers)
-yarn-error.log
-package-lock.json
-yarn.lock
-
-# Coverage reports
-coverage/
-
-# Miscellaneous
-*.pem
-*.key
-*.crt
-*.p12
-*.orig
-*.tmp
-*.swp
-*.swo
-
-# Git directories
-.git/
-
+.vscode
